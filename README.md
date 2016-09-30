@@ -1,10 +1,12 @@
-# Introdução
+# Exercício de Complexidade
+
+## Introdução
 
 Esse trabalho consiste em verificar a relação tempo/tanho da entrada de algoritmos
 de diferentes classes de complexidade. Para isso você deve seguir as etapas mostradas
 abaixo.
 
-# 1 - Implementar os algoritmos
+## 1 - Implementar os algoritmos
 Implementar pelo menos um algoritmo para cada uma das seguintes classes de complexidade:
 
 Complexidade | Sugestão
@@ -14,13 +16,13 @@ O(n)         | (busca sequencial)
 O(n*log(n))  | (*merge sort*)
 O(n²)        | (*bubble sort*)
 
-# 2 - Verificar o tempo de execução
+## 2 - Verificar o tempo de execução
 
 Executar cada algoritmo verificando seu tempo de execução para valores crescentes
 de n (tamanho da entrada). Por exemplo: Verificar o tempo de execução para entradas
 de tamanho 100, 200, ..., 500.
 
-# 3 - Gerar o csv
+## 3 - Gerar o csv
 Gerar um arquivo csv com os valores gerados no experimento, **comparando os algoritmos 
 2 a 2**. Você pode gerar csv com o seguinte formato:
 
@@ -42,18 +44,18 @@ algoritmo 2 levou 0.2 segundos.
 
 **Obs.:** Os valores de uma linha devem ser separados por ','
 
-# 4 - Gerar o gráfico
+## 4 - Gerar o gráfico
 
 Gerar um gráfico a partir do arquivo csv. Você pode gerar o gráfico utilizando o *Calc*
 do *LibreOffice*. Sugerimos que você crie um Gráfico de Linhas para representar o csv.
 
-## 4.1 - Comparar O(n) e O(log(n))
+### 4.1 - Comparar O(n) e O(log(n))
 Gere um gráfico comparando as classes O(n) e O(log(n)) para n = 100, n = 200, ..., n = 50000.
 
-## 4.2 - Comparar O(n*log(n)) e O(n²)
+### 4.2 - Comparar O(n*log(n)) e O(n²)
 Gere um gráfico comparando as classes O(n*log(n)) e O(n²) para n = 10, n = 20, ..., n = 2000.
 
-# Exercício extra
+## Exercício extra
 
 Implemente um algoritmo recursivo para calcular o n-ésimo número de Fibonacci e verifique
 até que valor de n você consegue executar em menos de 1 segundo.
